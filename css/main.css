@@ -1,0 +1,143 @@
+
+body {
+  background-color: #F8F8F8;
+}
+
+.normal {
+    font-family: Supermercado one;
+}
+
+html {
+    text-align: center;
+}
+
+
+table {
+  margin: 1em auto;
+  border-spacing: 10px;
+}
+
+img {
+  width: 327px;
+  height: 200px;
+}
+
+.header {
+  display: inline-block;
+}
+
+p {
+  margin: 25px 35px 35px 35px;
+}
+
+/*  Navigation Bar  */
+
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: aliceblue;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+
+
+/*  Footer  */
+.foot-name {
+  float: left;
+}
+
+.foot-top {
+  float: right;
+}
+
+footer {
+  border-top-color:#555;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+/* Media Queries */
+
+ @media only screen and (max-width: 320px){
+
+
+  .col {
+    width: 100%;
+  }
+
+
+
+
+}
+ @media only screen and (min-width: 768px) {
+
+
+   ul.topnav {
+     background-color: white;
+   }
+
+  .col {
+    width: 50%;
+  }
+
+  .search,
+  .map,
+  .calculator {
+    float: right;
+  }
+
+  .marketing,
+  .travel,
+  .photo-gallery {
+    float: left;
+  }
+
+
+
+}
+ @media only screen and (min-width: 1024px) {
+
+  .header {
+    float: left;
+  }
+
+  h1 {
+    margin-left: 25px;
+  }
+
+  ul {
+    background-color: #F8F8F8;
+  }
+
+  .col {
+    width: 33.3%;
+  }
+
+  ul.topnav li {
+    float: right;
+    background-color: #F8F8F8;
+
+  }
+
+  ul.topnav li.right {
+    float: right;
+  }
+
+ }
