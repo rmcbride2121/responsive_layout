@@ -9,6 +9,7 @@ body {
 
 html {
     text-align: center;
+    font-family: Trebuchet ms;
 }
 
 
@@ -22,12 +23,24 @@ img {
   height: 200px;
 }
 
+.intro {
+  display: inline-block;
+}
+
 .header {
   display: inline-block;
 }
 
 p {
   margin: 25px 35px 35px 35px;
+}
+
+.col {
+  width: 100%;
+}
+
+.profile {
+  margin: 30px 15px 15px 15px;
 }
 
 /*  Navigation Bar  */
@@ -56,8 +69,6 @@ ul.topnav li a:hover:not(.active) {background-color: aliceblue;}
 
 ul.topnav li a.active {background-color: #4CAF50;}
 
-
-
 /*  Footer  */
 .foot-name {
   float: left;
@@ -75,22 +86,20 @@ footer {
 
 /* Media Queries */
 
- @media only screen and (max-width: 320px){
-
-
-  .col {
-    width: 100%;
-  }
-
-
-
-
-}
  @media only screen and (min-width: 768px) {
 
 
    ul.topnav {
      background-color: white;
+   }
+
+   .profile {
+     float: right;
+     display: inline-block;
+   }
+
+   .intro {
+     
    }
 
   .col {
@@ -110,7 +119,6 @@ footer {
   }
 
 
-
 }
  @media only screen and (min-width: 1024px) {
 
@@ -122,9 +130,6 @@ footer {
     margin-left: 25px;
   }
 
-  ul {
-    background-color: #F8F8F8;
-  }
 
   .col {
     width: 33.3%;
@@ -132,12 +137,12 @@ footer {
 
   ul.topnav li {
     float: right;
-    background-color: #F8F8F8;
 
   }
 
   ul.topnav li.right {
     float: right;
+    background-color: #F8F8F8;
   }
 
  }
