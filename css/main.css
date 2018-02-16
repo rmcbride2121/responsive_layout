@@ -32,7 +32,7 @@ img {
 }
 
 p {
-  margin: 25px 35px 35px 35px;
+  margin: 25px 10px 35px 10px;
 }
 
 .col {
@@ -49,7 +49,7 @@ body {margin: 0;}
 
 ul.topnav {
     list-style-type: none;
-    margin: 0;
+    margin: 20px;
     padding: 0;
     overflow: hidden;
     background-color: white;
@@ -103,7 +103,7 @@ footer {
    }
 
    .intro {
-
+      float: left;
    }
 
   .col {
@@ -132,6 +132,7 @@ footer {
 
   h1 {
     margin-left: 25px;
+    margin-top: 4px;
   }
 
 
