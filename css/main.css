@@ -90,7 +90,11 @@ footer {
 
 
    ul.topnav {
-     background-color: white;
+     background-color: transparent;
+   }
+
+   ul.topnav li {
+     display: inline-block;
    }
 
    .profile {
@@ -99,7 +103,7 @@ footer {
    }
 
    .intro {
-     
+
    }
 
   .col {
