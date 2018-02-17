@@ -13,6 +13,7 @@ html {
 }
 
 
+
 table {
   margin: 1em auto;
   border-spacing: 10px;
@@ -40,7 +41,11 @@ p {
 }
 
 .profile {
-  margin: 30px 15px 15px 15px;
+  margin-top: : 30px;
+  margin-right:15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+
 }
 
 /*  Navigation Bar  */
@@ -106,6 +111,10 @@ footer {
       float: left;
    }
 
+   .portfolio {
+     clear: both;
+   }
+
   .col {
     width: 50%;
   }
@@ -122,6 +131,25 @@ footer {
     float: left;
   }
 
+  .clearfix {
+      overflow: auto;
+      clear: both;
+  }
+
+  .profile,
+  .intro {
+    max-width: 50%;
+  }
+
+  .intro {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+
+  .profile {
+    padding-right: 20px;
+  }
+
 
 }
  @media only screen and (min-width: 1024px) {
@@ -133,6 +161,10 @@ footer {
   h1 {
     margin-left: 25px;
     margin-top: 4px;
+  }
+
+  .intro {
+    float: left;
   }
 
 
@@ -149,5 +181,11 @@ footer {
     float: right;
     background-color: #F8F8F8;
   }
+
+  .clearfix {
+      overflow: auto;
+  }
+
+
 
  }
