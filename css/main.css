@@ -12,8 +12,6 @@ html {
     font-family: Trebuchet ms;
 }
 
-
-
 table {
   margin: 1em auto;
   border-spacing: 10px;
@@ -46,6 +44,18 @@ p {
   margin-bottom: 15px;
   margin-left: 15px;
 
+}
+
+.skills {
+  padding-top: 50px;
+}
+
+#contact {
+  padding-top: 25px;
+}
+
+.information {
+  padding: 25px;
 }
 
 /*  Navigation Bar  */

@@ -10,14 +10,15 @@
     <div class="header">
       <h1>Erin McBride</h1>
     </div>
-
-      <ul class="topnav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-
-    <div class=".clearfix">
+      <nav>
+        <ul class="topnav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+    <div class="clearfix">
 
           <img class="profile" src="images/responsive-layout-profile.png"  alt="Profile Image"/>
           <p class="intro">
@@ -26,8 +27,8 @@
 
     </div>
 
-      <div class=".clearfix">
-        <div class="portfolio" href="#portfolio">
+      <div class="clearfix">
+        <div class="portfolio" id="portfolio">
           <h1>Portfolio</h1>
         </div>
         <div class="marketing col">
@@ -61,10 +62,15 @@
               <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
           </div>
         </div>
+        
+        <div class="skills" id="skills">
+          <h2>Skills</h2>
+            <p>I have expereince using HTML, CSS, JavaScript, Excel, and SharePoint.</p>
+        </div>
 
-        <div class=".clearfix">
+        <div class="clearfix" id="contact">
           <h2>Contact</h2>
-              <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+              <p class="information">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
               <table>
                 <tr>
                   <td>Phone</td>
@@ -79,7 +85,7 @@
 
           <footer>
             <p class="foot-name">Erin McBride</p>
-            <p class="foot-top">BACK TO TOP</p>
+            <p class="foot-top"><a href="#">BACK TO TOP</a></p>
           </footer>
 
   </body>
