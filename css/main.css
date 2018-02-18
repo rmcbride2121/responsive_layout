@@ -4,12 +4,16 @@ body {
 }
 
 .normal {
-    font-family: Supermercado one;
+    font-family: "Supermercado one";
 }
 
 html {
     text-align: center;
-    font-family: Trebuchet ms;
+    font-family: "Trebuchet ms";
+}
+
+h1 {
+  margin-bottom: 75px;
 }
 
 h1,
@@ -44,7 +48,7 @@ p {
 }
 
 .profile {
-  margin-top: : 30px;
+  margin-top: 30px;
   margin-right:15px;
   margin-bottom: 15px;
   margin-left: 15px;
@@ -117,6 +121,10 @@ footer {
      display: inline-block;
    }
 
+   h1 {
+     margin-bottom: 75px;
+   }
+
    .profile {
      float: right;
      display: inline-block;
@@ -131,7 +139,9 @@ footer {
    }
 
   .col {
-    width: 50%;
+    width: 36%;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .search,
@@ -176,6 +186,7 @@ footer {
   h1 {
     margin-left: 25px;
     margin-top: 4px;
+    margin-bottom: 75px;
   }
 
   .intro {
@@ -185,6 +196,8 @@ footer {
 
   .col {
     width: 33.3%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   ul.topnav li {
