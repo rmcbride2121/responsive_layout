@@ -1,24 +1,20 @@
 
 body {
   background-color: #e6f2ff;
+  background: linear-gradient(#e6f2ff, white);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
 }
 
-.normal {
-    font-family: "Supermercado one";
-}
+
 
 html {
     text-align: center;
-    font-family: "Trebuchet ms";
+
 }
 
 h1 {
   margin-bottom: 75px;
-}
-
-h1,
-h2 {
-  font-family: "Arial, Helvetica, sans-serif";
 }
 
 table {
@@ -163,7 +159,7 @@ footer {
 
   .profile,
   .intro {
-    max-width: 50%;
+    max-width: 45%;
   }
 
   .intro {
