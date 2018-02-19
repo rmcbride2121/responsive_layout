@@ -189,7 +189,6 @@ footer {
     float: left;
   }
 
-
   .col {
     width: 33.3%;
     margin-left: auto;
@@ -197,12 +196,11 @@ footer {
   }
 
   ul.topnav li {
-    float: right;
-
+    text-align: right;
   }
 
   ul.topnav li.right {
-    float: right;
+    text-align: right;
     background-color: #e6f2ff;
   }
 
