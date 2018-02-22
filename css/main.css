@@ -100,6 +100,12 @@ ul.topnav li a.active {background-color: #4CAF50;}
 display: none;
 }
 
+nav.bottom-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 footer {
   border-top-color:#555;
   padding-top: 20px;
@@ -179,36 +185,13 @@ footer {
   }
 
   .bottom-nav {
-    display: inline-block;
+    display: inline;
+    float: right;
   }
 
-  ul.bottom-nav {
-    background-color: transparent;
-  }
 
-  ul.bottom-nav li {
-    display: inline-block;
-  }
 
-  ul.bottom-nav {
-      list-style-type: none;
-      margin: 20px;
-      padding: 0;
-      overflow: hidden;
-      background-color: white;
-  }
 
-  ul.bottom-nav li a {
-      display: block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-
-  ul.bottom-nav li a:hover:not(.active) {background-color: aliceblue;}
-
-  ul.bottom-nav li a.active {background-color: #4CAF50;}
 
  @media only screen and (min-width: 1024px) {
 
@@ -255,25 +238,9 @@ footer {
     display: inline-block;
   }
 
-  ul.bottom-nav {
-      list-style-type: none;
-      margin: 20px;
-      padding: 0;
-      overflow: hidden;
-      background-color: white;
-  }
 
-  ul.bottom-nav li a {
-      display: block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
 
-  ul.bottom-nav li a:hover:not(.active) {background-color: aliceblue;}
 
-  ul.bottom-nav li a.active {background-color: #4CAF50;}
 
 
   }
