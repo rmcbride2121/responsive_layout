@@ -72,8 +72,6 @@ ul.topnav {
     background-color: white;
 }
 
-
-
 ul.topnav li a {
     display: block;
     color: black;
@@ -97,13 +95,7 @@ ul.topnav li a.active {background-color: #4CAF50;}
 }
 
 .bottom-nav {
-display: none;
-}
-
-nav.bottom-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: none;
 }
 
 footer {
@@ -185,25 +177,33 @@ footer {
   }
 
   .bottom-nav {
-    display: inline;
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: transparent;
   }
-
-
-
 
 
  @media only screen and (min-width: 1024px) {
 
+  .topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 
   .header {
-    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-flex-start;
   }
 
   h1 {
-    margin-left: 25px;
-    margin-top: 4px;
-    margin-bottom: 75px;
+    margin:
   }
 
   .intro {
@@ -233,14 +233,6 @@ footer {
   .foot-top {
     display: none;
   }
-
-  .bottom-nav {
-    display: inline-block;
-  }
-
-
-
-
 
 
   }
