@@ -1,1 +1,1 @@
-# project 2 responsive layout
+# Techdegree Project 2 - Responsive Layout
